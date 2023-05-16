@@ -1,186 +1,183 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: 'Poppins', sans-serif, ;    
 }
-
-body{
-    margin: 0%;
-    padding: 0%;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://media.istockphoto.com/id/1201142336/photo/donate-writes-over-red-heart-shapes-hanging-over-red-background.jpg?s=170667a&w=0&k=20&c=0lEdU3RJU0Yzb-lVU2vTpYibq8guYq9r2RrHsDDGKqA=");
-    background-size: cover;
-    background-position: center;
-    font-family: sans-serif;
+header{
+    background:#ffffff;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-size: 100%;
+    background-image: url("https://t3.ftcdn.net/jpg/00/67/70/40/360_F_67704008_fxdmJ8wDOqDYts9P3tzdbxqZf8NfWT21.jpg");  
 }
-
-.nav1{
-    width: 100%;
+nav{
+    margin-top:-50px;
+    margin-bottom: 100px;
+    padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 70px;
-    margin: auto;
+    position: fixed; 
+    width: 100%;
+    background-color: #f10e0e;
+}
+.logo {
+    background: #720d0d;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    padding: 10px 15px;
+    pointer-events: none;
+}
+.menu a{
+    font-size: 20px;
+    padding:20px 30px;
+    color:#640000;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
 }
 
-header{
-    width: 100%;
-    height: 100vh;
-    background-size: 100% 100%;
+header a:hover{
+    background: #720d0d;
+    color:#fff;
+}
+.container{
+    display: flex;
+    align-items: right;
+    font-family: 'Poppins', sans-serif;
 }
 
 .h-text{
     max-width: 700px;
-    color: #faf4ff;
+    color: #000000;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-100%,-50%);
+    transform: translate(-50%,-50%);
     text-align: center;
     font-size: larger;
 }
 
 .h-text h2{
-    color: rgb(145, 140, 140);
+    color: rgb(29, 28, 28);
     font-size: 27px;
 }
 
-.btnn{
-    width: 120px;
-    height: 40px;
-    background: #e31d1d;
+button{
+    background: #720d0d;
+    color:#FFFFFF;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 15px 25px;
     border: none;
-    margin-top: 30px;
-    font-size: 20px;
-    border-radius: 10px;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 4%;
     cursor: pointer;
-    color: #000;
-    transition: 0.4s ease;
-    border-radius: 10px;
+    position: relative;
 }
 
-.btnn:hover
-{
-    color: #fff;
+button:hover{
+    background: #444343;
+    color:#ffffff;    
 }
-
-.logo{
-    color: #e42525;
-    font-size: 50px;
-    font-family: sans-serif;
-    padding-left: 20px;
-    float: left;
-    top: 20%;
-    padding-top: 10px;
-    margin-top: 10px
+.right{
+    margin-left:450px;
+    margin-top: -30px;
+    height: 80px;
 }
-
-.Menu a{
-    color: #ede9f0;
-    text-decoration-color: rgb(71, 69, 69);
-    padding: 10px 10px;
-    font-size: 20PX;
-}
-
-.loginbox {
-    width: 350px;
-    height: 500px;
-    background:#000;
-    color: #fff;
-    top: 50%;
-    right: -5%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+.content1{
+    width: 100%;
+    text-align: center;
+    padding-top: 50%;
+    display: table;
     box-sizing: border-box;
-    padding: 70px 30px;
-    border-radius: 10%;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 70px;
     
 }
-
-.loginbox h1 {
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 50 px;
-}
-
-.loginbox p {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
+p{
+    margin-top: 20px;
+    color: black;
     font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 10px;
+}
+.row{ 
+    display: flex;
+    justify-content:space-between;
+    padding: 2%;
+}
+.column{
+    font-size: large;
+    flex-basis: 15%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing: border-box;  
+}
+.column:hover {
+    color:white;
 }
 
-.loginbox input {
+.table {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 5%;
+}
+
+td{
+    border: solid;
+    border-color: #444343;
+}
+
+.block{
+    align-self: left;
+}
+
+
+.left .right{
+    flex-basis: 50%;
+}
+.left h1{
+    font-size: 20px;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 80px;
+    width: 40%;
+    height: auto;
+}
+
+.right{
+    margin-left:700px;
+    margin-top: -380px;
+    height: 80px;
+    width: 50%;
+}
+
+.learnabout{
     width: 100%;
-    margin-bottom: 20px;
-}
-
-.loginbox input[type="text"], input[type="password"]
-{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 18px;
-}
-
-.loginbox input[type="submit"]
-{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #fb2525;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-.loginbox input[type="submit"]:hover
-{
-    cursor: pointer;
-    background: #ca1212;
-    color: #000;
-}
-
-.loginbox a{
-    text-decoration: none;
-    font-size: 15px;
-    line-height: 20px;
-    color: darkgray;
-}
-
-.loginbox a:hover
-{
-    color: #dc3737;
-}
-
-.loginbox p{
-    text-decoration: none;
-    font-size: 20px;
-    line-height: 20px;
-    color: #fff;
-}
-
-.icons a{
-    text-decoration: none;
-    color: #fff;
-}
-.icons ion-icon{
-    color: #fff;
-    font-size: 32px;
-    padding-left: 22px;
-    padding-top: 5px;
-    transition: 0.3s ease;
-}
-.icons ion-icon:hover{
-    color: #ea4646;
-}
-
-.liw{
     text-align: center;
-    color: #fff;
-    height: 30px;
+    padding: 4px;
+    background-color: #640000;
+    color: #FFFFFF;
+
+}
+
+.left img{
+    width: 40%;
+    margin-left: 50px;
+    align-items: center;
 }
