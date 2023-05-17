@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:serif ;    
+}
+header{
+    background:#e93b3b;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    background-size: 100%;  
+}
+nav{
+    margin-top:-60px;
+    left: 0; 
+    margin-bottom: 100px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    background: #720d0d;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    padding: 10px 15px;
+    pointer-events: none;
+}
+.menu a{
+    font-size: 20px;
+    padding:20px 30px;
+    color:#640000;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+header a:hover{
+    background: #720d0d;
+    color:#fff;
+}
+h1{
+    color: #640000;
+    font-size: 160%;
+    margin-left: 7%;
+}
+.box{
+    width:1250px;
+    height:275px;
+    background-color: rgb(243, 237, 237); 
+    position: relative; 
+    margin-top: 100px;
+    margin-left: 105px;
+}
+.red{
+    width:1250px;
+    height:50px;
+    background-color:rgb(170, 13, 13); 
+    position: relative; 
+    margin-top: 2px;  
+}
+.button{
+    background: #e03636;
+    color:#FFFFFF;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    margin-left: 700px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(170, 13, 13);
+    color:#ffffff;  
+}
