@@ -33,7 +33,7 @@ nav{
 .menu a{
     font-size: 20px;
     padding:20px 30px;
-    color:#640000;
+    color:#ffffff;
     border-radius: 5px;
     margin: 5px;
     text-decoration: none;
@@ -120,15 +120,37 @@ p{
     justify-content:space-between;
     padding: 2%;
 }
-.column{
+.column1, .column2, .column3, .column4, .column5{
     font-size: large;
     flex-basis: 15%;
     border-radius: 10px;
     padding: 10px 10px;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    cursor: pointer;  
 }
-.column:hover {
+.column1:hover, .column2:hover, .column3:hover, .column4:hover, .column5:hover {
+    background-color: #640000;
     color:white;
+}
+
+.column1{
+    background-color: rgb(68, 87, 148);
+}
+
+.column2{
+    background-color: rgb(2, 213, 255);
+}
+
+.column3{
+    background-color: rgb(218, 218, 35);
+}
+
+.column4{
+    background-color: rgb(32, 144, 37);
+}
+
+.column5{
+    background-color: rgb(88, 32, 144);
 }
 
 .table {
@@ -136,6 +158,11 @@ p{
     flex: 0 0 100%;
     max-width: 100%;
     padding: 5%;
+    font-size: 1.5rem;
+}
+
+.tablehead{
+    color:white;background-color:red
 }
 
 td{
